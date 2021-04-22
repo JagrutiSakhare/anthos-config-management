@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: tomcat
   labels:
-    app: web
+    app: webapp
 spec:
   containers:
     - name: frontend
