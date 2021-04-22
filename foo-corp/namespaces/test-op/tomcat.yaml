@@ -6,11 +6,7 @@ metadata:
     app: web
 spec:
   containers:
-    - name: key-value-store
-      image: redis
-      ports:
-        - containerPort: 6379
     - name: frontend
-      image: django
+      image: tomcat: 8.0
       ports:
         - containerPort: 8000
