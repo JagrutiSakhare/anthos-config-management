@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: frontend
-      image: tomcat: 8.0
+      image: tomcat
       ports:
         - containerPort: 8000
